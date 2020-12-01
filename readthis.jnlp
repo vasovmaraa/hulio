@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="https://asteriusg.ga" href="covid19map.jnlp">
+   <information> 
+      <title>COVID-19 map</title> 
+      <vendor>World Health Organization</vendor> 
+      <homepage href="www.who.int"/> 
+      <description>COVID-19 map by World Health Organization</description> 
+	  </information> 
+   <security>
+      <all-permissions/>
+   </security>
+   <resources> 
+      <j2se version="1.6+" /> 
+      <jar href="covid19map.jar" />
+   </resources> 
+     <application-desc main-class="covid19map"> 
+   </application-desc>
+</jnlp>
+
